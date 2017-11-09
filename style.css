@@ -33,7 +33,7 @@ video {
 }
 
 .pic-overlay {
-    height: 700px;
+    height: 300px;
 }
 
 .slider .indicators .indicator-item.active {
@@ -54,7 +54,7 @@ video {
 }
 
 #nav-pic {
-    height: 700px;
+    height: 500px;
     width: auto;
     background-image: url(images/uv-hoboken.png);
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/uv-hoboken.png);
