@@ -32,9 +32,17 @@ video {
     justify-content: center;
 }
 
+.pic-overlay {
+    height: 700px;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #0050B2;
+}
+
 /* ----- nav pic ----- */
 
-#row-custom {
+.row-header {
     margin-bottom: 0;
 }
 
@@ -42,15 +50,15 @@ video {
     border-top: 5px solid #ffa500;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 #nav-pic {
-    /* border-bottom: 5px solid orange; */
-    /* background-color: #190b0b; */
-    /* background-image: url(images/uv-hoboken.png); */
-    /* background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/uv-hoboken.png); */
-    /* background-attachment: fixed; */
+    height: 700px;
+    width: auto;
+    background-image: url(images/uv-hoboken.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/uv-hoboken.png);
+    background-attachment: fixed;
 }
 
 nav.nav-center ul {
