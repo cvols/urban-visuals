@@ -1,0 +1,128 @@
+.uvblue-text {
+    color: #0050B2;
+}
+
+.uvblue {
+    background-color: #0050B2;
+}
+
+.uvblue:hover {
+    background-color: #003980;
+}
+
+.video-custom {
+    position: relative;
+}
+
+video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.overlay-desc {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----- nav pic ----- */
+
+#row-custom {
+    margin-bottom: 0;
+}
+
+.navbar-custom {
+    border-top: 5px solid #ffa500;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#nav-pic {
+    /* border-bottom: 5px solid orange; */
+    /* background-color: #190b0b; */
+    /* background-image: url(images/uv-hoboken.png); */
+    /* background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/uv-hoboken.png); */
+    /* background-attachment: fixed; */
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+/* ----- video player ----- */
+
+#card-title-custom {
+    margin-bottom: 20px;
+}
+
+.row-custom {
+    margin-top: 75px;
+}
+
+#custom-row {
+    background-color: #ededed;
+    padding: 50px 0;
+}
+
+#book-now-btn {
+    padding: 50px;
+}
+
+/* hide download on video player */
+
+video::-internal-media-controls-download-button {
+    display: none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+}
+
+/* ----- icons ----- */
+
+/* footer icons */
+
+.footer-icons {
+    font-size: 200%;
+}
+
+#facebook:hover {
+    color: #334f8d;
+}
+
+#twitter:hover {
+    color: #8a3ab9;
+}
+
+/* ----- sticky footer -----> */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
