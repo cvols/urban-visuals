@@ -1,3 +1,5 @@
+/* ----- colors ----- */
+
 .uvblue-text {
     color: #0050B2;
 }
@@ -6,9 +8,41 @@
     background-color: #0050B2;
 }
 
+.waves-effect.waves-uvblue .waves-ripple {
+    background-color: rgba(0, 80, 178, 1);
+}
+
 .uvblue:hover {
     background-color: #003980;
 }
+
+/* ----- navbar ----- */
+
+.row-header {
+    margin-bottom: 0;
+}
+
+.navbar-custom {
+    border-top: 5px solid #ffa500;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+/* ----- nav video ----- */
 
 .video-custom {
     position: relative;
@@ -36,42 +70,19 @@ video {
     height: 300px;
 }
 
+/* ----- video gallery ----- */
+
 .slider .indicators .indicator-item.active {
     background-color: #0050B2;
 }
 
 /* ----- nav pic ----- */
 
-.row-header {
-    margin-bottom: 0;
-}
-
-.navbar-custom {
-    border-top: 5px solid #ffa500;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
 #nav-pic {
     height: 500px;
     width: auto;
-    background-image: url(images/uv-hoboken.png);
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/uv-hoboken.png);
     background-attachment: fixed;
-}
-
-nav.nav-center ul {
-    text-align: center;
-}
-
-nav.nav-center ul li {
-    display: inline;
-    float: none;
-}
-
-nav.nav-center ul li a {
-    display: inline-block;
 }
 
 /* ----- video player ----- */
@@ -133,4 +144,15 @@ body {
 
 main {
     flex: 1 0 auto;
+}
+
+/* ----- media quiries ----- */
+
+@media only screen and (max-width: 1000px) {
+    .img-custom {
+        margin-bottom: 25px;
+    }
+    .img-bottom {
+        padding-bottom: 0;
+    }
 }
