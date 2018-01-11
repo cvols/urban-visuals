@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -22,12 +23,10 @@
                 <source src="images/uv-video-homepage.mp4" type="video/mp4">
             </video>
                 <div class="overlay-desc">
-                    <img src="images/uv-white-small-logo.png">
+                    <img src="images/uv-white-small-logo.png" class="animated fadeInDown">
                 </div>
             </div>
-            <!-- end valign wrapper -->
         </div>
-        <!-- end row -->
     </header>
 
     <main>
@@ -39,62 +38,68 @@
                         <li class="tab"><a target="_self" href="about.html">About</a></li>
                         <li class="tab"><a target="_self" href="gallery.html">Video Gallery</a></li>
                         <li class="tab"><a target="_self" href="contact.html">Contact</a></li>
-                        <li class="tab"><a target="_self" href="scenes.html">Behind the Scenes</a></li>
+                        <li class="tab"><a target="_self" href="scenes.html">Photography</a></li>
                     </ul>
                 </div>
-                <!-- end container nav content -->
             </nav>
-            <!-- end nav extended blue grey darken 4 -->
         </div>
 
         <div class="container">
             <div class="row row-custom">
+                <div class="col l12">
+                    <div class="center heading">
+                        <img src="./images/Reel2018.png" class="responsive-img" />
+                    </div>
+                </div>
                 <div class="col s12 m12 l8">
                     <video width="100%" controls poster="images/uv-hoboken.png">
-                        <source src="images/uv-video-homepage.mp4">Your browser does not support the video tag.
+                        <source src="images/REEL.mp4">Your browser does not support the video tag.
                     </video>
                 </div>
-                <!-- end col s12 m7 -->
-                <div class="col s12 m12 l4 center">
-                    <h3>Welcome</h3>
-                    <p class="flow-text uvblue-text">We hope you enjoy our reel</p>
+
+                <div class="col s12 m12 offset-l1 l3">
+                    <p class="flow-text uvblue-text">Welcome to The Urban Visuals. Whatever your video needs may be, we are here to provide stunning footage with a creative, well thought out edit that we guarantee you will be happy with.</p>
                 </div>
+
             </div>
-            <!-- end row -->
         </div>
+
         <div class="row row-custom" id="custom-row">
             <div class="container">
                 <div class="col s12">
                     <h3 class="center">Our Services Include</h3>
                     <p class="flow-text center">Promotional Video <span class="uvblue-text">//</span> Event Video + Photography <span class="uvblue-text">//</span> Music Videos <span class="uvblue-text">//</span> Interviews <span class="uvblue-text">// </span>Product Promotion (Video + Photo) <span class="uvblue-text">// </span> Much more...</p>
                 </div>
+
                 <div class="col s12">
                     <div class="center" id="book-now-btn">
-                        <a class="waves-effect waves-light btn btn-large uvblue" href="contact.html">Book now </a>
+                        <a class="waves-effect waves-light btn btn-large uvblue" href="contact.html">Book now</a>
                     </div>
                 </div>
-            </div>
-            <!-- end container -->
-        </div>
 
+            </div>
+        </div>
     </main>
 
     <footer class="page-footer blue-grey darken-4">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="grey-text text-lighten-1">The Urban Visuals</h5>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum maiores earum minus commodi, temporibus esse mollitia nemo beatae quo soluta, quisquam impedit magni doloribus dicta ullam autem, dolor omnis! Ipsum!</p>
+                    <h5 class="grey-text text-lighten-1">The Urban Visuals, LLC</h5>
+                    <p class="grey-text">A Video Production Company</p>
                 </div>
+
                 <div class="col l4 offset-l2 s12">
                     <h5 class="grey-text text-lighten-1">Social Media</h5>
                     <ul>
-                        <li><a class="grey-text" href="#!"><i class="footer-icons fa fa-instagram" id="twitter" aria-hidden="true"></i></a></li>
-                        <li><a class="grey-text" href="#!"><i class="footer-icons fa fa-facebook-square" id="facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="grey-text" href="https://www.instagram.com/the_urbanvisuals/" target="_blank"><i class="footer-icons fa fa-instagram" id="twitter" aria-hidden="true"></i></a></li>
+                        <li><a class="grey-text" href="https://www.facebook.com/GlozzyDigitalMedia/" target="_blank"><i class="footer-icons fa fa-facebook-square" id="facebook" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
+
             </div>
         </div>
+
         <div class="footer-copyright">
             <div class="container">
                 <div class="left grey-text">
@@ -104,7 +109,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>

@@ -10,6 +10,9 @@ $(document).ready(function () {
     // Fire off toast
     //Materialize.toast('Hello World', 3000);
 
+    // Init Material Box
+    $('.materialboxed').materialbox();
+
     // Init Slider
     $('.slider').slider();
 
